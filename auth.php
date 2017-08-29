@@ -119,7 +119,7 @@
                     $password = htmlspecialchars($password, ENT_QUOTES);
 
                     //Шифруем пароль
-                   $password = md5($_POST["passwrord"]);
+                   $password = md5($_POST["password"]);
                 }else{
                     // Сохраняем в сессию сообщение об ошибке. 
                     $_SESSION["error_messages"] .= "<p class='mesage_error' >Укажите Ваш пароль</p>";
@@ -146,7 +146,7 @@
 
             // (4) Место для составления запроса к БД
             //Запрос в БД на выборке пользователя.
-            $result_query_select = $mysqli->query("SELECT * FROM `users` WHERE email = '".$email."'");
+            $result_query_select = $mysqli->query("SELECT * FROM users WHERE email = '".$email."' AND password = '".$password."'");
             //$hash = mysqli_fetch_assoc($result_query_select);
 
             if(!$result_query_select){
