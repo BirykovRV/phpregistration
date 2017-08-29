@@ -1,0 +1,299 @@
+[Tue Aug 22 11:12:51.991818 2017] [mpm_winnt:notice] [pid 6824:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Tue Aug 22 11:12:51.991818 2017] [mpm_winnt:notice] [pid 6824:tid 340] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Tue Aug 22 11:12:51.991818 2017] [core:notice] [pid 6824:tid 340] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 22 11:12:52.060818 2017] [mpm_winnt:notice] [pid 6824:tid 340] AH00418: Parent: Created child process 6852
+[Tue Aug 22 11:12:52.323818 2017] [mpm_winnt:notice] [pid 6852:tid 240] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 22 14:47:26.208918 2017] [php7:crit] [pid 6852:tid 760] [client ::1:51191] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\\localhost\\display.php on line 13, referer: http://localhost:8080/
+[Tue Aug 22 14:47:43.092918 2017] [php7:crit] [pid 6852:tid 760] [client ::1:51193] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\\localhost\\display.php on line 13, referer: http://localhost:8080/
+[Tue Aug 22 14:47:45.658918 2017] [php7:crit] [pid 6852:tid 760] [client ::1:51193] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\\localhost\\display.php on line 13, referer: http://localhost:8080/
+[Tue Aug 22 14:48:12.859918 2017] [php7:crit] [pid 6852:tid 760] [client ::1:51195] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\\localhost\\display.php on line 13, referer: http://localhost:8080/
+[Tue Aug 22 14:48:15.396918 2017] [php7:crit] [pid 6852:tid 760] [client ::1:51195] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\\localhost\\display.php on line 13, referer: http://localhost:8080/
+[Tue Aug 22 15:38:02.547210 2017] [php7:notice] [pid 6852:tid 760] [client 10.87.6.140:51747] PHP Notice:  Use of undefined constant _POST - assumed '_POST' in C:\\localhost\\display.php on line 9, referer: http://10.87.6.140:8080/
+[Tue Aug 22 15:38:02.557210 2017] [php7:warn] [pid 6852:tid 760] [client 10.87.6.140:51747] PHP Warning:  Illegal string offset 'firstname' in C:\\localhost\\display.php on line 9, referer: http://10.87.6.140:8080/
+[Tue Aug 22 15:38:23.325210 2017] [php7:notice] [pid 6852:tid 760] [client 10.87.6.140:51755] PHP Notice:  Use of undefined constant _POST - assumed '_POST' in C:\\localhost\\display.php on line 9, referer: http://10.87.6.140:8080/
+[Tue Aug 22 15:38:23.325210 2017] [php7:warn] [pid 6852:tid 760] [client 10.87.6.140:51755] PHP Warning:  Illegal string offset 'firstname' in C:\\localhost\\display.php on line 9, referer: http://10.87.6.140:8080/
+[Tue Aug 22 15:42:32.243210 2017] [php7:notice] [pid 6852:tid 760] [client 10.87.6.140:51930] PHP Notice:  Undefined index: firstname in C:\\localhost\\login.php on line 9, referer: http://10.87.6.140:8080/
+[Tue Aug 22 15:42:32.243210 2017] [php7:notice] [pid 6852:tid 760] [client 10.87.6.140:51930] PHP Notice:  Undefined index: lastname in C:\\localhost\\login.php on line 10, referer: http://10.87.6.140:8080/
+[Tue Aug 22 16:02:38.230310 2017] [php7:notice] [pid 6852:tid 760] [client 10.87.6.140:52691] PHP Notice:  Undefined index: remember in C:\\localhost\\login.php on line 13, referer: http://10.87.6.140:8080/
+[Tue Aug 22 16:03:29.656310 2017] [php7:notice] [pid 6852:tid 760] [client 10.87.6.140:52698] PHP Notice:  Undefined index: remember in C:\\localhost\\login.php on line 11, referer: http://10.87.6.140:8080/
+[Tue Aug 22 16:03:29.656310 2017] [php7:notice] [pid 6852:tid 760] [client 10.87.6.140:52698] PHP Notice:  Undefined index: remember in C:\\localhost\\login.php on line 14, referer: http://10.87.6.140:8080/
+[Tue Aug 22 16:04:39.681310 2017] [php7:notice] [pid 6852:tid 760] [client 10.87.6.140:52700] PHP Notice:  Undefined index: remember in C:\\localhost\\login.php on line 11, referer: http://10.87.6.140:8080/
+[Tue Aug 22 16:04:39.681310 2017] [php7:notice] [pid 6852:tid 760] [client 10.87.6.140:52700] PHP Notice:  Undefined index: remember in C:\\localhost\\login.php on line 14, referer: http://10.87.6.140:8080/
+[Tue Aug 22 16:05:24.550310 2017] [php7:notice] [pid 6852:tid 760] [client ::1:52720] PHP Notice:  Undefined index: remember in C:\\localhost\\login.php on line 11, referer: http://localhost:8080/
+[Tue Aug 22 16:05:24.550310 2017] [php7:notice] [pid 6852:tid 760] [client ::1:52720] PHP Notice:  Undefined index: remember in C:\\localhost\\login.php on line 14, referer: http://localhost:8080/
+[Tue Aug 22 16:05:41.722310 2017] [php7:notice] [pid 6852:tid 760] [client ::1:52722] PHP Notice:  Undefined index: remember in C:\\localhost\\login.php on line 11, referer: http://localhost:8080/
+[Tue Aug 22 16:06:12.530310 2017] [php7:notice] [pid 6852:tid 760] [client ::1:52724] PHP Notice:  Undefined index: remember in C:\\localhost\\login.php on line 11, referer: http://localhost:8080/
+[Tue Aug 22 16:07:00.899710 2017] [php7:notice] [pid 6852:tid 760] [client ::1:52726] PHP Notice:  Undefined index: remember in C:\\localhost\\login.php on line 11, referer: http://localhost:8080/
+[Tue Aug 22 16:09:11.997710 2017] [php7:notice] [pid 6852:tid 760] [client ::1:52736] PHP Notice:  Undefined index: remember in C:\\localhost\\login.php on line 11, referer: http://localhost:8080/
+[Tue Aug 22 16:09:18.452710 2017] [php7:notice] [pid 6852:tid 760] [client ::1:52738] PHP Notice:  Undefined index: remember in C:\\localhost\\login.php on line 11, referer: http://localhost:8080/
+[Tue Aug 22 16:09:50.662710 2017] [php7:notice] [pid 6852:tid 760] [client ::1:52745] PHP Notice:  Undefined index: remember in C:\\localhost\\login.php on line 11, referer: http://localhost:8080/
+[Tue Aug 22 16:11:50.406710 2017] [php7:error] [pid 6852:tid 760] [client ::1:53028] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\\localhost\\login.php on line 14, referer: http://localhost:8080/
+[Tue Aug 22 16:12:13.443710 2017] [php7:notice] [pid 6852:tid 760] [client ::1:53030] PHP Notice:  Undefined index: remember in C:\\localhost\\login.php on line 11, referer: http://localhost:8080/
+[Tue Aug 22 16:58:50.204800 2017] [mpm_winnt:notice] [pid 6824:tid 340] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 22 16:58:52.248400 2017] [mpm_winnt:notice] [pid 6852:tid 240] AH00364: Child: All worker threads have exited.
+[Tue Aug 22 16:58:52.451200 2017] [mpm_winnt:notice] [pid 6824:tid 340] AH00430: Parent: Child process 6852 exited successfully.
+[Wed Aug 23 07:53:00.234000 2017] [mpm_winnt:notice] [pid 1788:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Wed Aug 23 07:53:00.249600 2017] [mpm_winnt:notice] [pid 1788:tid 340] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Wed Aug 23 07:53:00.249600 2017] [core:notice] [pid 1788:tid 340] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Aug 23 07:53:00.249600 2017] [mpm_winnt:notice] [pid 1788:tid 340] AH00418: Parent: Created child process 1712
+[Wed Aug 23 07:53:00.561600 2017] [mpm_winnt:notice] [pid 1712:tid 240] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 23 08:13:59.165776 2017] [mpm_winnt:notice] [pid 1788:tid 340] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Aug 23 08:13:59.649376 2017] [mpm_winnt:notice] [pid 1788:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Wed Aug 23 08:13:59.649376 2017] [mpm_winnt:notice] [pid 1788:tid 340] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Wed Aug 23 08:13:59.649376 2017] [core:notice] [pid 1788:tid 340] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Aug 23 08:13:59.664976 2017] [mpm_winnt:notice] [pid 1788:tid 340] AH00418: Parent: Created child process 7036
+[Wed Aug 23 08:14:00.366976 2017] [mpm_winnt:notice] [pid 7036:tid 240] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 23 08:14:01.193776 2017] [mpm_winnt:notice] [pid 1712:tid 240] AH00364: Child: All worker threads have exited.
+[Wed Aug 23 08:26:51.646803 2017] [mpm_winnt:notice] [pid 1788:tid 340] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Aug 23 08:26:51.724803 2017] [mpm_winnt:notice] [pid 1788:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Wed Aug 23 08:26:51.724803 2017] [mpm_winnt:notice] [pid 1788:tid 340] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Wed Aug 23 08:26:51.724803 2017] [core:notice] [pid 1788:tid 340] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Aug 23 08:26:51.756003 2017] [mpm_winnt:notice] [pid 1788:tid 340] AH00418: Parent: Created child process 4504
+[Wed Aug 23 08:26:52.660803 2017] [mpm_winnt:notice] [pid 4504:tid 240] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 23 08:26:53.674803 2017] [mpm_winnt:notice] [pid 7036:tid 240] AH00364: Child: All worker threads have exited.
+[Wed Aug 23 08:42:16.787909 2017] [mpm_winnt:notice] [pid 1788:tid 340] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Aug 23 08:42:16.943909 2017] [mpm_winnt:notice] [pid 1788:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Wed Aug 23 08:42:16.943909 2017] [mpm_winnt:notice] [pid 1788:tid 340] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Wed Aug 23 08:42:16.943909 2017] [core:notice] [pid 1788:tid 340] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Aug 23 08:42:16.959509 2017] [mpm_winnt:notice] [pid 1788:tid 340] AH00418: Parent: Created child process 3036
+[Wed Aug 23 08:42:17.801909 2017] [mpm_winnt:notice] [pid 3036:tid 240] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 23 08:42:18.815909 2017] [mpm_winnt:notice] [pid 4504:tid 240] AH00364: Child: All worker threads have exited.
+[Wed Aug 23 09:38:32.141742 2017] [php7:notice] [pid 3036:tid 764] [client 10.86.1.136:51246] PHP Notice:  Undefined index: login in C:\\localhost\\login.php on line 9
+[Wed Aug 23 09:38:32.141742 2017] [php7:notice] [pid 3036:tid 764] [client 10.86.1.136:51246] PHP Notice:  Undefined index: pass in C:\\localhost\\login.php on line 10
+[Wed Aug 23 09:38:34.389742 2017] [php7:notice] [pid 3036:tid 764] [client 10.86.1.136:51246] PHP Notice:  Undefined index: login in C:\\localhost\\login.php on line 9
+[Wed Aug 23 09:38:34.389742 2017] [php7:notice] [pid 3036:tid 764] [client 10.86.1.136:51246] PHP Notice:  Undefined index: pass in C:\\localhost\\login.php on line 10
+[Wed Aug 23 09:38:40.086742 2017] [php7:notice] [pid 3036:tid 764] [client 10.86.1.136:51254] PHP Notice:  Undefined index: login in C:\\localhost\\login.php on line 9
+[Wed Aug 23 09:38:40.086742 2017] [php7:notice] [pid 3036:tid 764] [client 10.86.1.136:51254] PHP Notice:  Undefined index: pass in C:\\localhost\\login.php on line 10
+[Wed Aug 23 09:47:53.738242 2017] [mpm_winnt:notice] [pid 1788:tid 340] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Aug 23 09:47:55.738242 2017] [mpm_winnt:notice] [pid 3036:tid 240] AH00364: Child: All worker threads have exited.
+[Wed Aug 23 09:47:55.758242 2017] [mpm_winnt:notice] [pid 1788:tid 340] AH00430: Parent: Child process 3036 exited successfully.
+[Thu Aug 24 08:00:52.159200 2017] [mpm_winnt:notice] [pid 1788:tid 344] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Thu Aug 24 08:00:52.169200 2017] [mpm_winnt:notice] [pid 1788:tid 344] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Thu Aug 24 08:00:52.169200 2017] [core:notice] [pid 1788:tid 344] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Aug 24 08:00:52.169200 2017] [mpm_winnt:notice] [pid 1788:tid 344] AH00418: Parent: Created child process 1980
+[Thu Aug 24 08:00:52.531200 2017] [mpm_winnt:notice] [pid 1980:tid 240] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 24 11:31:00.945497 2017] [php7:crit] [pid 1980:tid 764] [client ::1:50359] PHP Parse error:  syntax error, unexpected '.' in C:\\localhost\\login.php on line 7
+[Thu Aug 24 11:31:19.337897 2017] [php7:error] [pid 1980:tid 764] [client ::1:50361] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in C:\\localhost\\login.php:19\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\login.php on line 19
+[Thu Aug 24 13:24:55.261859 2017] [php7:error] [pid 1980:tid 780] [client ::1:52736] script 'C:/localhost/form_register.php' not found or unable to stat, referer: http://localhost:8080/index.php
+[Thu Aug 24 13:24:57.820259 2017] [php7:error] [pid 1980:tid 780] [client ::1:52736] script 'C:/localhost/form_auth.php' not found or unable to stat, referer: http://localhost:8080/index.php
+[Thu Aug 24 13:33:32.373659 2017] [php7:error] [pid 1980:tid 780] [client ::1:52773] script 'C:/localhost/captcha.php' not found or unable to stat, referer: http://localhost:8080/form_register.php
+[Thu Aug 24 13:36:18.514659 2017] [php7:error] [pid 1980:tid 784] [client ::1:52783] PHP Fatal error:  Uncaught Error: Call to undefined function imageCreateTrueColor() in C:\\localhost\\captcha.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\captcha.php on line 10, referer: http://localhost:8080/form_register.php
+[Thu Aug 24 13:36:19.637859 2017] [php7:error] [pid 1980:tid 780] [client ::1:52785] PHP Fatal error:  Uncaught Error: Call to undefined function imageCreateTrueColor() in C:\\localhost\\captcha.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\captcha.php on line 10, referer: http://localhost:8080/form_register.php
+[Thu Aug 24 13:36:20.308659 2017] [php7:error] [pid 1980:tid 780] [client ::1:52785] PHP Fatal error:  Uncaught Error: Call to undefined function imageCreateTrueColor() in C:\\localhost\\captcha.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\captcha.php on line 10, referer: http://localhost:8080/form_register.php
+[Thu Aug 24 13:39:49.794604 2017] [mpm_winnt:notice] [pid 1788:tid 344] AH00424: Parent: Received restart signal -- Restarting the server.
+[Thu Aug 24 13:39:50.403004 2017] [mpm_winnt:notice] [pid 1788:tid 344] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Thu Aug 24 13:39:50.403004 2017] [mpm_winnt:notice] [pid 1788:tid 344] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Thu Aug 24 13:39:50.403004 2017] [core:notice] [pid 1788:tid 344] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Aug 24 13:39:50.465404 2017] [mpm_winnt:notice] [pid 1788:tid 344] AH00418: Parent: Created child process 8784
+[Thu Aug 24 13:39:51.214204 2017] [mpm_winnt:notice] [pid 8784:tid 240] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 24 13:39:51.838204 2017] [mpm_winnt:notice] [pid 1980:tid 240] AH00364: Child: All worker threads have exited.
+[Thu Aug 24 13:52:27.073804 2017] [php7:error] [pid 8784:tid 784] [client ::1:53457] script 'C:/localhost/form_auth.php' not found or unable to stat, referer: http://localhost:8080/index.php
+[Thu Aug 24 13:52:29.398204 2017] [php7:error] [pid 8784:tid 784] [client ::1:53457] script 'C:/localhost/form_auth.php' not found or unable to stat, referer: http://localhost:8080/index.php
+[Thu Aug 24 13:55:09.484816 2017] [php7:error] [pid 8784:tid 784] [client ::1:53610] PHP Fatal error:  Uncaught Error: Call to undefined function imageCreateTrueColor() in C:\\localhost\\captcha.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\captcha.php on line 10, referer: http://localhost:8080/form_register.php
+[Thu Aug 24 13:55:10.327216 2017] [php7:error] [pid 8784:tid 776] [client ::1:53612] PHP Fatal error:  Uncaught Error: Call to undefined function imageCreateTrueColor() in C:\\localhost\\captcha.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\captcha.php on line 10, referer: http://localhost:8080/form_register.php
+[Thu Aug 24 13:56:02.815016 2017] [php7:error] [pid 8784:tid 784] [client ::1:53949] PHP Fatal error:  Uncaught Error: Call to undefined function imageCreateTrueColor() in C:\\localhost\\captcha.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\captcha.php on line 10
+[Thu Aug 24 13:59:11.604216 2017] [mpm_winnt:notice] [pid 1788:tid 344] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 24 13:59:13.632216 2017] [mpm_winnt:notice] [pid 8784:tid 240] AH00364: Child: All worker threads have exited.
+[Thu Aug 24 13:59:13.647816 2017] [mpm_winnt:notice] [pid 1788:tid 344] AH00430: Parent: Child process 8784 exited successfully.
+[Thu Aug 24 14:00:23.662800 2017] [mpm_winnt:notice] [pid 1812:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Thu Aug 24 14:00:23.662800 2017] [mpm_winnt:notice] [pid 1812:tid 340] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Thu Aug 24 14:00:23.662800 2017] [core:notice] [pid 1812:tid 340] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Aug 24 14:00:23.662800 2017] [mpm_winnt:notice] [pid 1812:tid 340] AH00418: Parent: Created child process 1668
+[Thu Aug 24 14:00:23.990400 2017] [mpm_winnt:notice] [pid 1668:tid 240] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 24 14:05:48.007823 2017] [php7:error] [pid 1668:tid 640] [client ::1:61212] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatetruecolor() in C:\\localhost\\captcha.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\captcha.php on line 10
+[Thu Aug 24 14:06:11.058572 2017] [php7:error] [pid 1668:tid 640] [client ::1:61232] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatetruecolor() in C:\\localhost\\captcha.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\captcha.php on line 10
+[Thu Aug 24 14:06:20.792972 2017] [php7:error] [pid 1668:tid 640] [client ::1:61278] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatetruecolor() in C:\\localhost\\captcha.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\captcha.php on line 10, referer: http://localhost:8080/form_register.php
+[Thu Aug 24 14:06:43.927772 2017] [php7:error] [pid 1668:tid 780] [client ::1:61342] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatetruecolor() in C:\\localhost\\captcha.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\captcha.php on line 10, referer: http://localhost:8080/form_register.php
+[Thu Aug 24 14:06:44.832572 2017] [php7:error] [pid 1668:tid 780] [client ::1:61342] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatetruecolor() in C:\\localhost\\captcha.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\captcha.php on line 10, referer: http://localhost:8080/form_register.php
+[Thu Aug 24 14:06:50.900972 2017] [php7:error] [pid 1668:tid 640] [client ::1:61344] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatetruecolor() in C:\\localhost\\captcha.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\captcha.php on line 10, referer: http://localhost:8080/form_register.php
+[Thu Aug 24 14:06:59.512172 2017] [php7:error] [pid 1668:tid 640] [client ::1:61346] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatetruecolor() in C:\\localhost\\captcha.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\captcha.php on line 10
+[Thu Aug 24 14:10:55.836900 2017] [php7:error] [pid 1668:tid 640] [client ::1:61401] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatetruecolor() in C:\\localhost\\index.php:39\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\index.php on line 39, referer: http://localhost:8080/form_register.php
+[Thu Aug 24 14:11:24.680767 2017] [php7:error] [pid 1668:tid 640] [client ::1:61407] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatetruecolor() in C:\\localhost\\index.php:39\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\index.php on line 39, referer: http://localhost:8080/form_register.php
+[Thu Aug 24 14:46:35.380416 2017] [php7:error] [pid 1668:tid 780] [client ::1:62789] PHP Fatal error:  Uncaught Error: Call to undefined function imageCreateTrueColor() in C:\\localhost\\captcha.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\captcha.php on line 10, referer: http://localhost:8080/form_register.php
+[Thu Aug 24 14:46:56.658816 2017] [php7:error] [pid 1668:tid 780] [client ::1:62797] PHP Fatal error:  Uncaught Error: Call to undefined function imageCreateTrueColor() in C:\\localhost\\captcha.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\captcha.php on line 10, referer: http://localhost:8080/form_register.php
+[Thu Aug 24 14:47:24.052416 2017] [php7:error] [pid 1668:tid 640] [client ::1:62803] PHP Fatal error:  Uncaught Error: Call to undefined function imageCreateTrueColor() in C:\\localhost\\captcha.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\captcha.php on line 10, referer: http://localhost:8080/form_register.php
+[Thu Aug 24 14:53:43.319816 2017] [mpm_winnt:notice] [pid 1812:tid 340] AH00424: Parent: Received restart signal -- Restarting the server.
+[Thu Aug 24 14:53:43.507016 2017] [mpm_winnt:notice] [pid 1812:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Thu Aug 24 14:53:43.507016 2017] [mpm_winnt:notice] [pid 1812:tid 340] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Thu Aug 24 14:53:43.507016 2017] [core:notice] [pid 1812:tid 340] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Aug 24 14:53:43.522616 2017] [mpm_winnt:notice] [pid 1812:tid 340] AH00418: Parent: Created child process 4792
+[Thu Aug 24 14:53:44.333816 2017] [mpm_winnt:notice] [pid 4792:tid 240] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 24 14:53:45.347816 2017] [mpm_winnt:notice] [pid 1668:tid 240] AH00364: Child: All worker threads have exited.
+[Thu Aug 24 15:24:15.332048 2017] [php7:error] [pid 4792:tid 788] [client ::1:63291] script 'C:/localhost/register.php' not found or unable to stat, referer: http://localhost:8080/form_register.php
+[Thu Aug 24 16:36:40.387761 2017] [php7:error] [pid 4792:tid 644] [client ::1:63834] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect_errni() in C:\\localhost\\dbconnect.php:14\nStack trace:\n#0 C:\\localhost\\register.php(5): require_once()\n#1 {main}\n  thrown in C:\\localhost\\dbconnect.php on line 14, referer: http://localhost:8080/form_register.php
+[Thu Aug 24 17:00:31.911302 2017] [mpm_winnt:notice] [pid 1812:tid 340] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 24 17:00:33.939302 2017] [mpm_winnt:notice] [pid 4792:tid 240] AH00364: Child: All worker threads have exited.
+[Thu Aug 24 17:00:33.954902 2017] [mpm_winnt:notice] [pid 1812:tid 340] AH00430: Parent: Child process 4792 exited successfully.
+[Fri Aug 25 07:59:11.782000 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Fri Aug 25 07:59:11.782000 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Aug 25 07:59:11.782000 2017] [core:notice] [pid 1816:tid 340] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Aug 25 07:59:11.797600 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00418: Parent: Created child process 2060
+[Fri Aug 25 07:59:12.187600 2017] [mpm_winnt:notice] [pid 2060:tid 244] AH00354: Child: Starting 64 worker threads.
+[Fri Aug 25 08:19:09.172287 2017] [php7:error] [pid 2060:tid 748] [client ::1:57869] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect_errni() in C:\\localhost\\dbconnect.php:14\nStack trace:\n#0 C:\\localhost\\register.php(5): require_once()\n#1 {main}\n  thrown in C:\\localhost\\dbconnect.php on line 14, referer: http://localhost:8080/form_register.php
+[Fri Aug 25 08:22:59.135974 2017] [php7:error] [pid 2060:tid 772] [client ::1:57972] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect_errni() in C:\\localhost\\dbconnect.php:14\nStack trace:\n#0 C:\\localhost\\register.php(5): require_once()\n#1 {main}\n  thrown in C:\\localhost\\dbconnect.php on line 14, referer: http://localhost:8080/form_register.php
+[Fri Aug 25 10:48:17.728398 2017] [php7:error] [pid 2060:tid 748] [client ::1:59290] script 'C:/localhost/form_auth.php' not found or unable to stat, referer: http://localhost:8080/index.php
+[Fri Aug 25 10:56:52.140208 2017] [php7:crit] [pid 2060:tid 748] [client ::1:59351] PHP Parse error:  syntax error, unexpected '!' in C:\\localhost\\register.php on line 22, referer: http://localhost:8080/form_register.php
+[Fri Aug 25 10:59:15.238174 2017] [php7:error] [pid 2060:tid 748] [client ::1:59368] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect_errni() in C:\\localhost\\dbconnect.php:14\nStack trace:\n#0 C:\\localhost\\register.php(5): require_once()\n#1 {main}\n  thrown in C:\\localhost\\dbconnect.php on line 14, referer: http://localhost:8080/form_register.php
+[Fri Aug 25 11:05:47.568389 2017] [php7:warn] [pid 2060:tid 748] [client ::1:59480] PHP Warning:  mysqli::__construct(): MySQL server has gone away in C:\\localhost\\dbconnect.php on line 11, referer: http://localhost:8080/form_register.php
+[Fri Aug 25 11:05:47.568389 2017] [php7:warn] [pid 2060:tid 748] [client ::1:59480] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=2060 in C:\\localhost\\dbconnect.php on line 11, referer: http://localhost:8080/form_register.php
+[Fri Aug 25 11:05:47.568389 2017] [php7:warn] [pid 2060:tid 748] [client ::1:59480] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in C:\\localhost\\dbconnect.php on line 11, referer: http://localhost:8080/form_register.php
+[Fri Aug 25 11:05:47.568389 2017] [php7:error] [pid 2060:tid 748] [client ::1:59480] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\\localhost\\dbconnect.php on line 11, referer: http://localhost:8080/form_register.php
+[Fri Aug 25 11:09:59.455766 2017] [php7:warn] [pid 2060:tid 748] [client ::1:59685] PHP Warning:  mysqli::__construct(): MySQL server has gone away in C:\\localhost\\dbconnect.php on line 11, referer: http://localhost:8080/form_register.php
+[Fri Aug 25 11:09:59.455766 2017] [php7:warn] [pid 2060:tid 748] [client ::1:59685] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=2060 in C:\\localhost\\dbconnect.php on line 11, referer: http://localhost:8080/form_register.php
+[Fri Aug 25 11:09:59.455766 2017] [php7:warn] [pid 2060:tid 748] [client ::1:59685] PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in C:\\localhost\\dbconnect.php on line 11, referer: http://localhost:8080/form_register.php
+[Fri Aug 25 11:09:59.455766 2017] [php7:error] [pid 2060:tid 748] [client ::1:59685] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\\localhost\\dbconnect.php on line 11, referer: http://localhost:8080/form_register.php
+[Fri Aug 25 11:10:04.962495 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Aug 25 11:10:05.165292 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Fri Aug 25 11:10:05.165292 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Aug 25 11:10:05.165292 2017] [core:notice] [pid 1816:tid 340] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Aug 25 11:10:05.196492 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00418: Parent: Created child process 3892
+[Fri Aug 25 11:10:05.976482 2017] [mpm_winnt:notice] [pid 3892:tid 240] AH00354: Child: Starting 64 worker threads.
+[Fri Aug 25 11:10:06.990469 2017] [mpm_winnt:notice] [pid 2060:tid 244] AH00364: Child: All worker threads have exited.
+[Fri Aug 25 11:56:05.525741 2017] [php7:crit] [pid 3892:tid 796] [client ::1:61360] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING), expecting ',' or ')' in C:\\localhost\\register.php on line 228, referer: http://localhost:8080/form_register.php
+[Fri Aug 25 11:56:37.936741 2017] [php7:crit] [pid 3892:tid 796] [client ::1:61362] PHP Parse error:  syntax error, unexpected 'INTO' (T_STRING), expecting ',' or ')' in C:\\localhost\\register.php on line 228, referer: http://localhost:8080/form_register.php
+[Fri Aug 25 13:01:44.491641 2017] [php7:crit] [pid 3892:tid 804] [client ::1:63553] PHP Parse error:  syntax error, unexpected ';' in C:\\localhost\\auth.php on line 110, referer: http://localhost:8080/form_auth.php
+[Fri Aug 25 13:16:12.801641 2017] [php7:error] [pid 3892:tid 804] [client ::1:63941] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in C:\\localhost\\register.php:228\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\register.php on line 228, referer: http://localhost:8080/form_register.php
+[Fri Aug 25 13:19:44.487941 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Aug 25 13:19:44.583941 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Fri Aug 25 13:19:44.583941 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Aug 25 13:19:44.583941 2017] [core:notice] [pid 1816:tid 340] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Aug 25 13:19:44.604941 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00418: Parent: Created child process 7196
+[Fri Aug 25 13:19:45.487941 2017] [mpm_winnt:notice] [pid 7196:tid 244] AH00354: Child: Starting 64 worker threads.
+[Fri Aug 25 13:19:46.487941 2017] [mpm_winnt:notice] [pid 3892:tid 240] AH00364: Child: All worker threads have exited.
+[Fri Aug 25 13:20:04.829941 2017] [php7:error] [pid 7196:tid 788] [client ::1:64117] PHP Fatal error:  Uncaught Error: Call to a member function close() on boolean in C:\\localhost\\register.php:262\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\register.php on line 262, referer: http://localhost:8080/form_register.php
+[Fri Aug 25 13:22:45.276941 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Aug 25 13:22:45.358941 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Fri Aug 25 13:22:45.359941 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Aug 25 13:22:45.359941 2017] [core:notice] [pid 1816:tid 340] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Aug 25 13:22:45.375941 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00418: Parent: Created child process 7216
+[Fri Aug 25 13:22:46.276941 2017] [mpm_winnt:notice] [pid 7216:tid 240] AH00354: Child: Starting 64 worker threads.
+[Fri Aug 25 13:22:47.276941 2017] [mpm_winnt:notice] [pid 7196:tid 244] AH00364: Child: All worker threads have exited.
+[Fri Aug 25 13:25:13.884941 2017] [php7:error] [pid 7216:tid 772] [client ::1:64193] PHP Fatal error:  Uncaught Error: Call to a member function close() on boolean in C:\\localhost\\register.php:262\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\register.php on line 262, referer: http://localhost:8080/form_register.php
+[Fri Aug 25 14:10:07.731841 2017] [php7:error] [pid 7216:tid 772] [client ::1:64971] PHP Fatal error:  Uncaught Error: Call to a member function close() on boolean in C:\\localhost\\register.php:262\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\register.php on line 262, referer: http://localhost:8080/form_register.php
+[Fri Aug 25 15:50:23.047075 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Aug 25 15:50:23.140674 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Fri Aug 25 15:50:23.140674 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Aug 25 15:50:23.140674 2017] [core:notice] [pid 1816:tid 340] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Aug 25 15:50:23.156274 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00418: Parent: Created child process 6216
+[Fri Aug 25 15:50:24.061068 2017] [mpm_winnt:notice] [pid 6216:tid 240] AH00354: Child: Starting 64 worker threads.
+[Fri Aug 25 15:50:25.075062 2017] [mpm_winnt:notice] [pid 7216:tid 240] AH00364: Child: All worker threads have exited.
+[Fri Aug 25 15:58:10.115402 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Aug 25 15:58:10.193401 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Fri Aug 25 15:58:10.193401 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Fri Aug 25 15:58:10.193401 2017] [core:notice] [pid 1816:tid 340] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Aug 25 15:58:10.224600 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00418: Parent: Created child process 2148
+[Fri Aug 25 15:58:11.129389 2017] [mpm_winnt:notice] [pid 2148:tid 240] AH00354: Child: Starting 64 worker threads.
+[Fri Aug 25 15:58:12.143376 2017] [mpm_winnt:notice] [pid 6216:tid 240] AH00364: Child: All worker threads have exited.
+[Fri Aug 25 16:30:54.088579 2017] [php7:error] [pid 2148:tid 796] [client ::1:51009] PHP Fatal error:  Uncaught Error: Call to a member function close() on boolean in C:\\localhost\\register.php:262\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\register.php on line 262, referer: http://localhost:8080/form_register.php
+[Fri Aug 25 16:43:49.825423 2017] [php7:error] [pid 2148:tid 760] [client ::1:51107] PHP Fatal error:  Uncaught Error: Call to a member function close() on boolean in C:\\localhost\\register.php:291\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\register.php on line 291, referer: http://localhost:8080/form_register.php
+[Fri Aug 25 16:59:36.920816 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Aug 25 16:59:38.948778 2017] [mpm_winnt:notice] [pid 2148:tid 240] AH00364: Child: All worker threads have exited.
+[Fri Aug 25 16:59:38.964378 2017] [mpm_winnt:notice] [pid 1816:tid 340] AH00430: Parent: Child process 2148 exited successfully.
+[Sat Aug 26 08:37:43.934400 2017] [mpm_winnt:notice] [pid 1852:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Sat Aug 26 08:37:43.944400 2017] [mpm_winnt:notice] [pid 1852:tid 340] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Aug 26 08:37:43.944400 2017] [core:notice] [pid 1852:tid 340] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Aug 26 08:37:43.954400 2017] [mpm_winnt:notice] [pid 1852:tid 340] AH00418: Parent: Created child process 1784
+[Sat Aug 26 08:37:44.371400 2017] [mpm_winnt:notice] [pid 1784:tid 240] AH00354: Child: Starting 64 worker threads.
+[Sat Aug 26 09:20:23.079711 2017] [php7:error] [pid 1784:tid 768] [client ::1:53738] PHP Fatal error:  Uncaught Error: Call to a member function close() on boolean in C:\\localhost\\register.php:291\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\register.php on line 291, referer: http://localhost:8080/form_register.php
+[Sat Aug 26 09:29:11.211946 2017] [php7:notice] [pid 1784:tid 768] [client ::1:53825] PHP Notice:  Undefined index: password in C:\\localhost\\auth.php on line 121, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 09:33:51.294346 2017] [php7:error] [pid 1784:tid 768] [client ::1:53878] PHP Fatal error:  Uncaught Error: Call to a member function close() on boolean in C:\\localhost\\register.php:292\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\register.php on line 292, referer: http://localhost:8080/form_register.php
+[Sat Aug 26 09:34:11.324746 2017] [php7:notice] [pid 1784:tid 768] [client ::1:53885] PHP Notice:  Undefined index: password in C:\\localhost\\auth.php on line 121, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 09:34:27.985546 2017] [php7:notice] [pid 1784:tid 768] [client ::1:53888] PHP Notice:  Undefined index: password in C:\\localhost\\auth.php on line 121, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 10:12:49.555123 2017] [php7:error] [pid 1784:tid 768] [client ::1:54772] PHP Fatal error:  Uncaught Error: Call to a member function close() on boolean in C:\\localhost\\register.php:291\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\register.php on line 291, referer: http://localhost:8080/form_register.php
+[Sat Aug 26 10:13:00.365923 2017] [php7:crit] [pid 1784:tid 768] [client ::1:54775] PHP Parse error:  syntax error, unexpected ';' in C:\\localhost\\auth.php on line 167, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 10:13:34.327123 2017] [php7:warn] [pid 1784:tid 768] [client ::1:54781] PHP Warning:  password_verify() expects parameter 2 to be string, object given in C:\\localhost\\auth.php on line 164, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 10:13:59.193523 2017] [php7:warn] [pid 1784:tid 768] [client ::1:54788] PHP Warning:  password_verify() expects parameter 2 to be string, object given in C:\\localhost\\auth.php on line 164, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 10:15:33.043123 2017] [php7:crit] [pid 1784:tid 732] [client ::1:54803] PHP Parse error:  syntax error, unexpected ')' in C:\\localhost\\auth.php on line 121, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 10:16:09.344323 2017] [php7:warn] [pid 1784:tid 732] [client ::1:54807] PHP Warning:  password_verify() expects parameter 2 to be string, object given in C:\\localhost\\auth.php on line 164, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 10:19:43.961925 2017] [php7:warn] [pid 1784:tid 732] [client ::1:54815] PHP Warning:  password_verify() expects parameter 2 to be string, object given in C:\\localhost\\auth.php on line 164, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 10:21:58.402724 2017] [php7:error] [pid 1784:tid 732] [client ::1:54891] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::query() in C:\\localhost\\auth.php:149\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\auth.php on line 149, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 10:23:24.608324 2017] [php7:warn] [pid 1784:tid 768] [client ::1:54900] PHP Warning:  password_verify() expects parameter 2 to be string, object given in C:\\localhost\\auth.php on line 164, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 10:23:24.608324 2017] [php7:error] [pid 1784:tid 768] [client ::1:54900] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in C:\\localhost\\auth.php on line 177, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 10:29:12.769124 2017] [php7:warn] [pid 1784:tid 768] [client ::1:54993] PHP Warning:  password_verify() expects parameter 2 to be string, object given in C:\\localhost\\auth.php on line 164, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 10:29:12.769124 2017] [php7:error] [pid 1784:tid 768] [client ::1:54993] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in C:\\localhost\\auth.php on line 177, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 10:47:17.097557 2017] [php7:error] [pid 1784:tid 732] [client ::1:55663] PHP Fatal error:  Uncaught Error: Call to undefined function query() in C:\\localhost\\auth.php:149\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\auth.php on line 149, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 10:47:46.066757 2017] [php7:error] [pid 1784:tid 732] [client ::1:55670] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in C:\\localhost\\auth.php:149\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\auth.php on line 149, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 10:51:58.443557 2017] [php7:warn] [pid 1784:tid 768] [client ::1:55838] PHP Warning:  password_verify() expects parameter 2 to be string, object given in C:\\localhost\\auth.php on line 164, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 10:52:56.709557 2017] [php7:warn] [pid 1784:tid 768] [client ::1:55846] PHP Warning:  password_verify() expects parameter 2 to be string, object given in C:\\localhost\\auth.php on line 164, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 10:52:56.709557 2017] [php7:error] [pid 1784:tid 768] [client ::1:55846] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in C:\\localhost\\auth.php on line 177, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 10:53:31.528757 2017] [php7:crit] [pid 1784:tid 768] [client ::1:55853] PHP Parse error:  syntax error, unexpected '$hashPassword' (T_VARIABLE), expecting ',' or ')' in C:\\localhost\\auth.php on line 164, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 10:54:23.432830 2017] [php7:error] [pid 1784:tid 732] [client ::1:55873] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_row() in C:\\localhost\\auth.php:149\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\auth.php on line 149, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 10:55:09.094030 2017] [php7:error] [pid 1784:tid 732] [client ::1:55876] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_row() in C:\\localhost\\auth.php:149\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\auth.php on line 149, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 11:07:37.303230 2017] [php7:error] [pid 1784:tid 732] [client ::1:56434] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_assoc() in C:\\localhost\\auth.php:150\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\auth.php on line 150, referer: http://localhost:8080/form_auth.php
+[Sat Aug 26 11:09:09.703030 2017] [php7:error] [pid 1784:tid 732] [client ::1:56466] PHP Fatal error:  Uncaught Error: Call to a member function close() on boolean in C:\\localhost\\register.php:291\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\register.php on line 291, referer: http://localhost:8080/form_register.php
+[Sat Aug 26 11:18:44.747720 2017] [php7:error] [pid 1784:tid 732] [client ::1:56574] PHP Fatal error:  Uncaught Error: Call to a member function close() on boolean in C:\\localhost\\register.php:291\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\register.php on line 291, referer: http://localhost:8080/form_register.php
+[Sat Aug 26 11:47:03.675660 2017] [php7:crit] [pid 1784:tid 768] [client ::1:56774] PHP Parse error:  syntax error, unexpected end of file in C:\\localhost\\form_register.php on line 110, referer: http://localhost:8080/form_register.php
+[Sat Aug 26 11:49:09.942060 2017] [php7:notice] [pid 1784:tid 724] [client ::1:56812] PHP Notice:  Undefined variable: email_admin in C:\\localhost\\register.php on line 306, referer: http://localhost:8080/form_register.php
+[Sat Aug 26 11:49:09.942060 2017] [php7:notice] [pid 1784:tid 724] [client ::1:56812] PHP Notice:  Undefined variable: email_admin in C:\\localhost\\register.php on line 306, referer: http://localhost:8080/form_register.php
+[Sat Aug 26 11:49:10.971660 2017] [php7:warn] [pid 1784:tid 724] [client ::1:56812] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\\localhost\\register.php on line 309, referer: http://localhost:8080/form_register.php
+[Sat Aug 26 11:49:10.971660 2017] [php7:error] [pid 1784:tid 724] [client ::1:56812] PHP Fatal error:  Uncaught Error: Call to a member function close() on boolean in C:\\localhost\\register.php:322\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\register.php on line 322, referer: http://localhost:8080/form_register.php
+[Sat Aug 26 11:55:11.430060 2017] [mpm_winnt:notice] [pid 1852:tid 340] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sat Aug 26 11:55:11.570460 2017] [mpm_winnt:notice] [pid 1852:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Sat Aug 26 11:55:11.570460 2017] [mpm_winnt:notice] [pid 1852:tid 340] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Aug 26 11:55:11.570460 2017] [core:notice] [pid 1852:tid 340] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Aug 26 11:55:11.601660 2017] [mpm_winnt:notice] [pid 1852:tid 340] AH00418: Parent: Created child process 4772
+[Sat Aug 26 11:55:12.444060 2017] [mpm_winnt:notice] [pid 4772:tid 244] AH00354: Child: Starting 64 worker threads.
+[Sat Aug 26 11:55:13.458060 2017] [mpm_winnt:notice] [pid 1784:tid 240] AH00364: Child: All worker threads have exited.
+[Sat Aug 26 11:55:15.985260 2017] [mpm_winnt:notice] [pid 1852:tid 340] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sat Aug 26 11:55:16.032060 2017] [mpm_winnt:notice] [pid 1852:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Sat Aug 26 11:55:16.032060 2017] [mpm_winnt:notice] [pid 1852:tid 340] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Aug 26 11:55:16.032060 2017] [core:notice] [pid 1852:tid 340] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Aug 26 11:55:16.047660 2017] [mpm_winnt:notice] [pid 1852:tid 340] AH00418: Parent: Created child process 3552
+[Sat Aug 26 11:55:16.999260 2017] [mpm_winnt:notice] [pid 3552:tid 240] AH00354: Child: Starting 64 worker threads.
+[Sat Aug 26 11:55:18.013260 2017] [mpm_winnt:notice] [pid 4772:tid 244] AH00364: Child: All worker threads have exited.
+[Sat Aug 26 11:56:32.440860 2017] [php7:notice] [pid 3552:tid 804] [client ::1:57072] PHP Notice:  Undefined variable: email_admin in C:\\localhost\\register.php on line 306, referer: http://localhost:8080/form_register.php
+[Sat Aug 26 11:56:32.440860 2017] [php7:notice] [pid 3552:tid 804] [client ::1:57072] PHP Notice:  Undefined variable: email_admin in C:\\localhost\\register.php on line 306, referer: http://localhost:8080/form_register.php
+[Sat Aug 26 12:10:47.965036 2017] [mpm_winnt:notice] [pid 1852:tid 340] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sat Aug 26 12:10:48.027436 2017] [mpm_winnt:notice] [pid 1852:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Sat Aug 26 12:10:48.027436 2017] [mpm_winnt:notice] [pid 1852:tid 340] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Aug 26 12:10:48.027436 2017] [core:notice] [pid 1852:tid 340] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Aug 26 12:10:48.058636 2017] [mpm_winnt:notice] [pid 1852:tid 340] AH00418: Parent: Created child process 6228
+[Sat Aug 26 12:10:48.979036 2017] [mpm_winnt:notice] [pid 6228:tid 244] AH00354: Child: Starting 64 worker threads.
+[Sat Aug 26 12:10:49.993036 2017] [mpm_winnt:notice] [pid 3552:tid 240] AH00364: Child: All worker threads have exited.
+[Sat Aug 26 12:11:18.104236 2017] [php7:notice] [pid 6228:tid 804] [client ::1:57596] PHP Notice:  Undefined variable: email_admin in C:\\localhost\\register.php on line 306, referer: http://localhost:8080/form_register.php
+[Sat Aug 26 12:11:18.104236 2017] [php7:notice] [pid 6228:tid 804] [client ::1:57596] PHP Notice:  Undefined variable: email_admin in C:\\localhost\\register.php on line 306, referer: http://localhost:8080/form_register.php
+[Sat Aug 26 12:11:40.037836 2017] [php7:error] [pid 6228:tid 804] [client ::1:57596] PHP Fatal error:  Uncaught Error: Call to a member function close() on boolean in C:\\localhost\\register.php:322\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\register.php on line 322, referer: http://localhost:8080/form_register.php
+[Sat Aug 26 12:15:53.881036 2017] [php7:error] [pid 6228:tid 804] [client ::1:57647] PHP Fatal error:  Uncaught Error: Call to a member function close() on boolean in C:\\localhost\\register.php:322\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\register.php on line 322, referer: http://localhost:8080/form_register.php
+[Sat Aug 26 12:17:12.614236 2017] [php7:error] [pid 6228:tid 800] [client ::1:57683] PHP Fatal error:  Uncaught Error: Call to a member function close() on boolean in C:\\localhost\\register.php:322\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\register.php on line 322, referer: http://localhost:8080/form_register.php
+[Sat Aug 26 12:17:57.947836 2017] [php7:error] [pid 6228:tid 800] [client ::1:57704] PHP Fatal error:  Uncaught Error: Call to a member function close() on boolean in C:\\localhost\\register.php:322\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\register.php on line 322, referer: http://localhost:8080/form_register.php
+[Sat Aug 26 12:21:58.828658 2017] [php7:notice] [pid 6228:tid 800] [client ::1:57743] PHP Notice:  Undefined index: addr in C:\\localhost\\index.php on line 8
+[Sat Aug 26 12:21:58.828658 2017] [php7:notice] [pid 6228:tid 800] [client ::1:57743] PHP Notice:  Undefined index: theme in C:\\localhost\\index.php on line 9
+[Sat Aug 26 12:21:58.828658 2017] [php7:notice] [pid 6228:tid 800] [client ::1:57743] PHP Notice:  Undefined index: text in C:\\localhost\\index.php on line 10
+[Sat Aug 26 12:24:28.967458 2017] [mpm_winnt:notice] [pid 1852:tid 340] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sat Aug 26 12:24:29.045458 2017] [mpm_winnt:notice] [pid 1852:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Sat Aug 26 12:24:29.045458 2017] [mpm_winnt:notice] [pid 1852:tid 340] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Aug 26 12:24:29.045458 2017] [core:notice] [pid 1852:tid 340] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Aug 26 12:24:29.076658 2017] [mpm_winnt:notice] [pid 1852:tid 340] AH00418: Parent: Created child process 5004
+[Sat Aug 26 12:24:29.981458 2017] [mpm_winnt:notice] [pid 5004:tid 240] AH00354: Child: Starting 64 worker threads.
+[Sat Aug 26 12:24:30.995458 2017] [mpm_winnt:notice] [pid 6228:tid 244] AH00364: Child: All worker threads have exited.
+[Sat Aug 26 12:25:21.976258 2017] [php7:notice] [pid 5004:tid 788] [client ::1:57753] PHP Notice:  Undefined index: addr in C:\\localhost\\index.php on line 8
+[Sat Aug 26 12:25:21.976258 2017] [php7:notice] [pid 5004:tid 788] [client ::1:57753] PHP Notice:  Undefined index: theme in C:\\localhost\\index.php on line 9
+[Sat Aug 26 12:25:21.976258 2017] [php7:notice] [pid 5004:tid 788] [client ::1:57753] PHP Notice:  Undefined index: text in C:\\localhost\\index.php on line 10
+[Sat Aug 26 12:26:08.698258 2017] [php7:error] [pid 5004:tid 788] [client ::1:57758] script 'C:/localhost/mailer.php' not found or unable to stat, referer: http://localhost:8080/
+[Sat Aug 26 12:27:31.285658 2017] [php7:notice] [pid 5004:tid 788] [client ::1:57790] PHP Notice:  Undefined index: addr in C:\\localhost\\mailer.php on line 8
+[Sat Aug 26 12:27:31.285658 2017] [php7:notice] [pid 5004:tid 788] [client ::1:57790] PHP Notice:  Undefined index: theme in C:\\localhost\\mailer.php on line 9
+[Sat Aug 26 12:27:31.285658 2017] [php7:notice] [pid 5004:tid 788] [client ::1:57790] PHP Notice:  Undefined index: text in C:\\localhost\\mailer.php on line 10
+[Sat Aug 26 14:41:10.204302 2017] [mpm_winnt:notice] [pid 1852:tid 340] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Aug 26 14:41:12.205302 2017] [mpm_winnt:notice] [pid 5004:tid 240] AH00364: Child: All worker threads have exited.
+[Sat Aug 26 14:41:12.311302 2017] [mpm_winnt:notice] [pid 1852:tid 340] AH00430: Parent: Child process 5004 exited successfully.
+[Sat Aug 26 14:41:17.859302 2017] [mpm_winnt:notice] [pid 6016:tid 336] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Sat Aug 26 14:41:17.859302 2017] [mpm_winnt:notice] [pid 6016:tid 336] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Aug 26 14:41:17.859302 2017] [core:notice] [pid 6016:tid 336] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Aug 26 14:41:18.210302 2017] [mpm_winnt:notice] [pid 6016:tid 336] AH00418: Parent: Created child process 3620
+[Sat Aug 26 14:41:18.779302 2017] [mpm_winnt:notice] [pid 3620:tid 244] AH00354: Child: Starting 64 worker threads.
+[Sat Aug 26 14:42:18.342102 2017] [mpm_winnt:notice] [pid 6016:tid 336] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Aug 26 14:42:20.370102 2017] [mpm_winnt:notice] [pid 3620:tid 244] AH00364: Child: All worker threads have exited.
+[Sat Aug 26 14:42:20.385702 2017] [mpm_winnt:notice] [pid 6016:tid 336] AH00430: Parent: Child process 3620 exited successfully.
+[Sat Aug 26 14:43:28.196200 2017] [mpm_winnt:notice] [pid 1788:tid 336] AH00455: Apache/2.4.27 (Win64) PHP/7.1.8 configured -- resuming normal operations
+[Sat Aug 26 14:43:28.196200 2017] [mpm_winnt:notice] [pid 1788:tid 336] AH00456: Apache Lounge VC15 Server built: Jul  7 2017 12:46:00
+[Sat Aug 26 14:43:28.196200 2017] [core:notice] [pid 1788:tid 336] AH00094: Command line: 'c:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Aug 26 14:43:28.196200 2017] [mpm_winnt:notice] [pid 1788:tid 336] AH00418: Parent: Created child process 1908
+[Sat Aug 26 14:43:28.539400 2017] [mpm_winnt:notice] [pid 1908:tid 236] AH00354: Child: Starting 64 worker threads.
+[Sat Aug 26 14:55:03.124317 2017] [mpm_winnt:crit] [pid 1908:tid 236] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Aug 26 14:55:03.124317 2017] [mpm_winnt:warn] [pid 1908:tid 4] (OS 995)ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Aug 26 14:55:03.126317 2017] [mpm_winnt:warn] [pid 1908:tid 220] (OS 995)ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Aug 26 14:55:03.125317 2017] [mpm_winnt:error] [pid 1908:tid 4] (OS 10038)—делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Sat Aug 26 14:55:03.126317 2017] [mpm_winnt:error] [pid 1908:tid 220] (OS 10038)—делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Sat Aug 26 14:55:03.163317 2017] [mpm_winnt:notice] [pid 1908:tid 4] (OS 10038)—делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Sat Aug 26 14:55:03.163317 2017] [mpm_winnt:notice] [pid 1908:tid 220] (OS 10038)—делана попытка выполнить операцию на объекте, не €вл€ющемс€ сокетом.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Sat Aug 26 14:55:05.126317 2017] [mpm_winnt:notice] [pid 1908:tid 236] AH00364: Child: All worker threads have exited.
