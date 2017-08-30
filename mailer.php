@@ -19,23 +19,23 @@
             }
         }   
         
-        $server = "localhost";
-	$username = "root";
-	$password = "";
-	$database = "logindb";
-
-	// Подключение к базе данный через MySQLi
-	$mysqli = new mysqli($server, $username, $password, $database);
-        
-        $sql = "SELECT password FROM users WHERE email = 'r.v.birukov@yandex.ru'";
-        $result = $mysqli ->query($sql);
-        $rs = $result->fetch_assoc();
-        $pass = "123456";
-        if (password_verify($pass, $rs['password'])) {
-            echo 'Пароль верный!';
-        } else {
-            echo 'Пароль не верный!';
-        }
+//        $server = "localhost";
+//	$username = "root";
+//	$password = "";
+//	$database = "logindb";
+//
+//	// Подключение к базе данный через MySQLi
+//	$mysqli = new mysqli($server, $username, $password, $database);
+//        
+//        $sql = "SELECT password FROM users WHERE email = 'r.v.birukov@yandex.ru'";
+//        $result = $mysqli ->query($sql);
+//        $rs = $result->fetch_assoc();
+//        $pass = "123456";
+//        if (password_verify($pass, $rs['password'])) {
+//            echo 'Пароль верный!';
+//        } else {
+//            echo 'Пароль не верный!';
+//        }
 ?>
 <form action="mailer.php" method="post">
 <p>
