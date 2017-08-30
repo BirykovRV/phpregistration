@@ -112,15 +112,14 @@
             if(isset($_POST["password"])){
 
                 //Обрезаем пробелы с начала и с конца строки
-                $password = trim($_POST["password"]);
-                
+                $password = trim($_POST["password"]);                
 
                 if(!empty($password)){
                     $password = htmlspecialchars($password, ENT_QUOTES);
 
                     //Шифруем пароль
-                   $password = md5($_POST["password"]);
-                }else{
+                    //$password = md5($_POST["password"]);
+                }else {
                     // Сохраняем в сессию сообщение об ошибке. 
                     $_SESSION["error_messages"] .= "<p class='mesage_error' >Укажите Ваш пароль</p>";
                     
@@ -146,8 +145,10 @@
 
             // (4) Место для составления запроса к БД
             //Запрос в БД на выборке пользователя.
-            $result_query_select = $mysqli->query("SELECT * FROM users WHERE email = '".$email."' AND password = '".$password."'");
-            //$hash = mysqli_fetch_assoc($result_query_select);
+            $result_query_select = $mysqli->query("SELECT * FROM users WHERE email = '".$email."'");
+            $sql = "SELECT password FROM users WHERE email = '".$email."'";
+            $result = $mysqli->query($sql);
+            $hash = $result->fetch_assoc();
 
             if(!$result_query_select){
                 // Сохраняем в сессию сообщение об ошибке. 
@@ -163,37 +164,39 @@
 
                 //Проверяем, если в базе нет пользователя с такими данными, то выводим сообщение об ошибке
                 if(($result_query_select->num_rows == 1)){
-                      //&& password_verify($password, $hash["password"])   
+                    
+                    if (password_verify($password, $hash['password'])) {
+                       
                     //Проверяем, подтвержден ли указанный email
-                    while (($row = $result_query_select->fetch_assoc()) != false) {
-                        //Если email не подтверждён
-                        if ((int)$row["email_status"] == 0) {
-                            // Сохраняем в сессию сообщение об ошибке.
-                            $_SESSION["error_messages"] = "<p class='mesage_error' >Вы зарегистрированы, но, Ваш почтовый адрес не подтверждён. Для подтверждения почты перейдите по ссылке из письма, которую получили после регистрации.</p>
-                            <p><strong>Внимание!</strong> Ссылка для подтверждения почты, действительна 24 часа с момента регистрации. Если Вы не подтвердите Ваш email в течении этого времени, то Ваш аккаунт будет удалён.</p>";
+                        while (($row = $result_query_select->fetch_assoc()) != false) {
+                            //Если email не подтверждён
+                            if ((int)$row["email_status"] == 0) {
+                                // Сохраняем в сессию сообщение об ошибке.
+                                $_SESSION["error_messages"] = "<p class='mesage_error' >Вы зарегистрированы, но, Ваш почтовый адрес не подтверждён. Для подтверждения почты перейдите по ссылке из письма, которую получили после регистрации.</p>
+                                <p><strong>Внимание!</strong> Ссылка для подтверждения почты, действительна 24 часа с момента регистрации. Если Вы не подтвердите Ваш email в течении этого времени, то Ваш аккаунт будет удалён.</p>";
 
-                            //Возвращаем пользователя на страницу авторизации
-                            header("HTTP/1.1 301 Moved Permanently");
-                            header("Location: ".$address_site."/form_auth.php");
-                 
-                            //Останавливаем скрипт
-                            exit();
-                        } else {
-                            //место для добавления данных в сессию
-                            // Если введенные данные совпадают с данными из базы, то сохраняем логин и пароль в массив сессий.
-                            $_SESSION['email'] = $email;
-                            $_SESSION['password'] = $password;
-                            $_SESSION['first_name'] = $first_name;
+                                //Возвращаем пользователя на страницу авторизации
+                                header("HTTP/1.1 301 Moved Permanently");
+                                header("Location: ".$address_site."/form_auth.php");
 
-                            //Возвращаем пользователя на главную страницу
-                            header("HTTP/1.1 301 Moved Permanently");
-                            header("Location: ".$address_site."/index.php");
-                 
-                            //Останавливаем скрипт
-                            exit();
+                                //Останавливаем скрипт
+                                exit();
+                            } else {
+                                //место для добавления данных в сессию
+                                // Если введенные данные совпадают с данными из базы, то сохраняем логин и пароль в массив сессий.
+                                $_SESSION['email'] = $email;
+                                $_SESSION['password'] = $password;
+                                $_SESSION['first_name'] = $first_name;
+
+                                //Возвращаем пользователя на главную страницу
+                                header("HTTP/1.1 301 Moved Permanently");
+                                header("Location: ".$address_site."/index.php");
+
+                                //Останавливаем скрипт
+                                exit();
+                            }
                         }
-                    }                               
-
+                    }
                 } else {
                     
                     // Сохраняем в сессию сообщение об ошибке. 
