@@ -163,10 +163,8 @@
             }else {
 
                 //Проверяем, если в базе нет пользователя с такими данными, то выводим сообщение об ошибке
-                if(($result_query_select->num_rows == 1)){
+                if(($result_query_select->num_rows == 1) && password_verify($password, $hash['password'])){
                     
-                    if (password_verify($password, $hash['password'])) {
-                       
                     //Проверяем, подтвержден ли указанный email
                         while (($row = $result_query_select->fetch_assoc()) != false) {
                             //Если email не подтверждён
@@ -196,7 +194,6 @@
                                 exit();
                             }
                         }
-                    }
                 } else {
                     
                     // Сохраняем в сессию сообщение об ошибке. 
