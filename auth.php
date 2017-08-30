@@ -184,7 +184,6 @@
                                 // Если введенные данные совпадают с данными из базы, то сохраняем логин и пароль в массив сессий.
                                 $_SESSION['email'] = $email;
                                 $_SESSION['password'] = $password;
-                                $_SESSION['first_name'] = $first_name;
 
                                 //Возвращаем пользователя на главную страницу
                                 header("HTTP/1.1 301 Moved Permanently");
