@@ -238,8 +238,8 @@
                     $password = htmlspecialchars($password, ENT_QUOTES);
 
                     //Шифруем папроль
-                    //$password = password_hash($password, PASSWORD_DEFAULT);
-                    $password = md5($_POST["password"]);
+                    $password = password_hash($password, PASSWORD_DEFAULT);
+                    //$password = md5($_POST["password"]);
                 }else{
                     // Сохраняем в сессию сообщение об ошибке. 
                     $_SESSION["error_messages"] .= "<p class='mesage_error' >Укажите Ваш пароль</p>";
@@ -252,7 +252,7 @@
                     exit();
                 }
 
-            }else{
+            }else {
                 // Сохраняем в сессию сообщение об ошибке. 
                 $_SESSION["error_messages"] .= "<p class='mesage_error' >Отсутствует поле для ввода пароля</p>";
                 
@@ -265,7 +265,9 @@
             }
 
             //Запрос на добавления пользователя в БД
-            $result_query_insert = $mysqli->query("INSERT INTO `users` (first_name, last_name, email, password, date_registration) VALUES ('".$first_name."', '".$last_name."', '".$email."', '".$password."', NOW())");
+            $result_query_insert = $mysqli->query
+            ("INSERT INTO `users` (first_name, last_name, email, password, date_registration)
+              VALUES ('".$first_name."', '".$last_name."', '".$email."', '".$password."', NOW())");
 
             if(!$result_query_insert){
                 // Сохраняем в сессию сообщение об ошибке. 
@@ -282,7 +284,9 @@
                 $token = md5($email.time());
 
                 //Добавляем данные в таблицу confirm_users
-                $query_insert_confirm = $mysqli->query("INSERT INTO `confirm_users` (email, token, date_registration) VALUES ('".$email."', '".$token."', NOW()) ");
+                $query_insert_confirm = $mysqli->query
+                ("INSERT INTO `confirm_users` (email, token, date_registration)
+                 VALUES ('".$email."', '".$token."', NOW()) ");
 
                 if (!$query_insert_confirm) {
                     $_SESSION["error_messages"] .= "<p class='mesage_error' >Ошибка запроса на добавления пользователя в БД (confirm)</p>";
@@ -296,7 +300,14 @@
                     //Составляем заголовок письма
                     $subject = "Подтверждение почты на сайте ".$_SERVER['HTTP_HOST'];
                     //Составляем тело сообщения
-                    $message = 'Здравствуйте! <br/> <br/> Сегодня '.date("d.m.Y", time()).', неким пользователем была произведена регистрация на сайте <a href="'.$address_site.'">'.$_SERVER['HTTP_HOST'].'</a> используя Ваш email. Если это были Вы, то, пожалуйста, подтвердите адрес вашей электронной почты, перейдя по этой ссылке: <a href="'.$address_site.'/activation.php?token='.$token.'&email='.$email.'">'.$address_site.'/activation/'.$token.'</a> <br/> <br/> В противном случае, если это были не Вы, то, просто игнорируйте это письмо. <br/> <br/> <strong>Внимание!</strong> Ссылка действительна 24 часа. После чего Ваш аккаунт будет удален из базы.';
+                    $message = 'Здравствуйте! <br/> <br/> Сегодня '
+                    . ''.date("d.m.Y", time()).', неким пользователем была '
+                    . 'произведена регистрация на сайте <a href="'.$address_site.'">'.$_SERVER['HTTP_HOST'].''
+                    . '</a> используя Ваш email. Если это были Вы, то, пожалуйста, подтвердите адрес вашей '
+                    . 'электронной почты, перейдя по этой ссылке:'
+                    . '<a href="'.$address_site.'/activation.php?token='.$token.'&email='.$email.'">'.$address_site.'/activation/'.$token.''
+                    . '</a> <br/> <br/> В противном случае, если это были не Вы, то, просто игнорируйте это письмо. <br/> <br/> '
+                    . '<strong>Внимание!</strong> Ссылка действительна 24 часа. После чего Ваш аккаунт будет удален из базы.';
                      
                     //Составляем дополнительные заголовки для почтового сервиса mail.ru
                     //Переменная $email_admin, объявлена в файле dbconnect.php
