@@ -41,7 +41,7 @@
                         <tr>
                             <td> Введите Ваш <br />E-mail: </td>
                             <td>
-                                <input type="email" name="email" placeholder="" >
+                                <input type="email" name="email" placeholder="E-mail" >
                             </td>
                         </tr>
                         <tr>
