@@ -1,4 +1,6 @@
-
+body{
+    margin: 0 0;
+}
 .clear{
     clear: both;
 }
@@ -13,6 +15,12 @@
 
 .block_for_messages{
     text-align: center;
+}
+
+#content{
+    width: 50%;
+    outline: 1px solid red;
+    margin-left: 400px;
 }
 
 #header, #footer{

@@ -15,11 +15,11 @@
     <body>
  
         <div id="header">
-            <h2>Шапка сайта</h2>
+            <h2>Название сайта</h2>
  
-            <a href="index.php">Главная</a>
             <a href="mailer.php">Тест почты</a>
- 
+            <a href="index.php"><img src="images/logo.jpg" width="96" height="96" alt="logo"/></a>
+
             <div id="auth_block">
 <?php
     //Проверяем авторизован ли пользователь
