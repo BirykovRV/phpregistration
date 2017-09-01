@@ -5,7 +5,6 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="js/email_check.js"></script>
     </head>
     <body>
         <div class="bloc_for_message">
@@ -36,21 +35,12 @@
                  
                 <!-- Абзац -->
                 <p class="text_center mesage_error" id="valid_email_message"></p>
-                <form action="send_link_reset_password.php" method="post" name="form_request_email" >
+                <form action="link_reset_password.php" method="POST" name="form_request_email" >
                     <table>
                         <tr>
                             <td> Введите Ваш <br />E-mail: </td>
                             <td>
                                 <input type="email" name="email" placeholder="E-mail" >
-                            </td>
-                        </tr>
-                        <tr>
-                            <td> Введите капчу: </td>
-                            <td>
-                                <p>
-                                    <img src="captcha.php" alt="Капча" /> <br />
-                                    <input type="text" name="captcha" placeholder="Проверочный код" />
-                                </p>
                             </td>
                         </tr>
                         <tr>
@@ -72,9 +62,6 @@
                 </div>
         <?php
             }
-
-            //Подключение подвала
-            require_once("footer.php");
         ?>
     </body>
 </html>
