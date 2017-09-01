@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Название нашего сайта</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    </head>
-    <body>
+<?php
+    //Подключение шапки
+    require_once("header.php");
+?>
         <div class="bloc_for_message">
             <?
                 if(isset($_SESSION["error_messages"]) && !empty($_SESSION["error_messages"])){
@@ -62,6 +57,5 @@
                 </div>
         <?php
             }
+        require_once("footer.php");
         ?>
-    </body>
-</html>
